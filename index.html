@@ -1,0 +1,43 @@
+</<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="./css/mainMenu.css">
+
+    <title></title>
+
+
+</head>
+
+<body>
+
+<div class="menu" id="main-menu">
+        <div class="boxmenu-options">
+            <div class="box-options">
+                <button class="buttons-menu" id="new-game">new game</button>
+            </div>
+            <div class="box-options">
+                <button class="buttons-menu" id="tutorial">tutorial</button>
+            </div>
+         
+        </div>
+    </div>
+
+    <script>
+        //SETUP BUTTONS
+        //MAIN MENU
+        let newGameButton = document.getElementById("new-game");
+        newGameButton.onclick= function(){
+            window.location.replace('./game.html')
+        };
+
+        let tutorialButton = document.getElementById("tutorial");
+        tutorialButton.onclick= function(){
+            window.location.replace('./tutorial.html')
+        };
+    </script>
+
+</body>
+
+</html>
