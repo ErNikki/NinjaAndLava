@@ -5,7 +5,7 @@
 ### Play from browser
 To open the game i suggest you to **NOT USE** chrome. 
 You can use edge, opera or firefox. 
-You can play the game [Here](https://sapienzainteractivegraphicscourse.github.io/final-project-sernii-team/).
+You can play the game [Here](https://github.com/ErNikki/NinjaAndLava/).
 
 ### Play locally
 If you want to download the folder and play the game locally you have to open the folder, open game.html with an editor and remove following parts of strings:
